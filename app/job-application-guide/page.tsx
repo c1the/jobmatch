@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import { Box, Container, VStack, Heading, Text, UnorderedList, ListItem, Link as ChakraLink, useColorModeValue } from '@chakra-ui/react';
@@ -60,7 +59,7 @@ const JobApplicationGuide = () => {
 
             <GuideSection title="3. Prepare Your Application">
               <Text mb={4}>
-                Once you've found a job you're interested in, it's time to prepare your application.
+                Once you have found a job you are interested in, it is time to prepare your application.
               </Text>
               <UnorderedList spacing={2}>
                 <ListItem>Carefully read the job description and requirements</ListItem>
@@ -78,7 +77,7 @@ const JobApplicationGuide = () => {
                 <ListItem>Double-check all your documents for accuracy</ListItem>
                 <ListItem>Submit your application before the deadline</ListItem>
                 <ListItem>If possible, find a contact at the company and follow up on your application</ListItem>
-                <ListItem>Keep track of the jobs you've applied to and their status</ListItem>
+                <ListItem>Keep track of the jobs you have applied to and their status</ListItem>
               </UnorderedList>
             </GuideSection>
 
@@ -96,12 +95,12 @@ const JobApplicationGuide = () => {
 
             <GuideSection title="6. Follow Up">
               <Text mb={4}>
-                After your interview, it's important to follow up.
+                After your interview, it is important to follow up.
               </Text>
               <UnorderedList spacing={2}>
                 <ListItem>Send a thank-you note or email within 24 hours of your interview</ListItem>
                 <ListItem>Reiterate your interest in the position</ListItem>
-                <ListItem>If you don't hear back within the specified timeframe, follow up politely</ListItem>
+                <ListItem>If you do not hear back within the specified timeframe, follow up politely</ListItem>
                 <ListItem>Be patient and continue your job search while waiting for responses</ListItem>
               </UnorderedList>
             </GuideSection>
