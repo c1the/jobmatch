@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import { Box, Container, VStack, Heading, Text, UnorderedList, ListItem, Link as ChakraLink, useColorModeValue } from '@chakra-ui/react';
