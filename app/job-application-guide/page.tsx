@@ -4,18 +4,19 @@ import { Box, Container, VStack, Heading, Text, UnorderedList, ListItem, Link as
 import Link from 'next/link';
 import SecondaryNavbar from '../../components/SecondaryNavbar';
 import Sidebar from '../../components/Sidebar';
+import { ReactNode } from 'react';
+
 
 const JobApplicationGuide = () => {
   const bgColor = useColorModeValue('gray.100', 'gray.700');
   const borderColor = useColorModeValue('gray.200', 'gray.600');
 
-  const GuideSection = ({ title, children }) => (
+  const GuideSection = ({ title, children }: { title: string; children: ReactNode }) => (
     <Box bg={bgColor} p={6} borderRadius="md" borderWidth={1} borderColor={borderColor} mb={6}>
       <Heading as="h2" size="xl" mb={4}>{title}</Heading>
       {children}
     </Box>
   );
-
   return (
     <Box>
       <SecondaryNavbar />
